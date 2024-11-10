@@ -110,7 +110,7 @@ export const UserPanel = () => {
               {userData?.socialMedia?.discord && (
                 <a
                   href={
-                    "https://www.discord.com/" + userData.socialMedia.discord
+                    "https://discord.gg/" + userData.socialMedia.discord
                   }
                   target="_blank"
                 >
